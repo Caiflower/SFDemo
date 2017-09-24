@@ -29,6 +29,8 @@
 		B84D014B1F7804E900FCD2F3 /* UIButton-SFExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84D014A1F7804E900FCD2F3 /* UIButton-SFExtension.swift */; };
 		B84D014D1F78050400FCD2F3 /* UIView-SFExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84D014C1F78050400FCD2F3 /* UIView-SFExtension.swift */; };
 		B84D014F1F78055000FCD2F3 /* UIImage-SFExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84D014E1F78055000FCD2F3 /* UIImage-SFExtension.swift */; };
+		B84D01511F78059300FCD2F3 /* SFBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84D01501F78059300FCD2F3 /* SFBaseView.swift */; };
+		B84D01531F7805AF00FCD2F3 /* SFScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84D01521F7805AF00FCD2F3 /* SFScrollView.swift */; };
 		EFD1BC5986A3A656A5279B73 /* Pods_meifabao.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EC29A82865C3C09A6400188 /* Pods_meifabao.framework */; };
 /* End PBXBuildFile section */
 
@@ -81,6 +83,8 @@
 		B84D014A1F7804E900FCD2F3 /* UIButton-SFExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton-SFExtension.swift"; sourceTree = "<group>"; };
 		B84D014C1F78050400FCD2F3 /* UIView-SFExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView-SFExtension.swift"; sourceTree = "<group>"; };
 		B84D014E1F78055000FCD2F3 /* UIImage-SFExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage-SFExtension.swift"; sourceTree = "<group>"; };
+		B84D01501F78059300FCD2F3 /* SFBaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFBaseView.swift; sourceTree = "<group>"; };
+		B84D01521F7805AF00FCD2F3 /* SFScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFScrollView.swift; sourceTree = "<group>"; };
 		C3D970659A48E8337A224232 /* Pods-meifabaoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-meifabaoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-meifabaoUITests/Pods-meifabaoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		E60794A9BE6A88E4736C456A /* Pods_meifabaoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_meifabaoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE3D065AA68F7BB3A6F3BAE8 /* Pods-meifabao.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-meifabao.debug.xcconfig"; path = "Pods/Target Support Files/Pods-meifabao/Pods-meifabao.debug.xcconfig"; sourceTree = "<group>"; };
@@ -307,6 +311,8 @@
 			isa = PBXGroup;
 			children = (
 				B84D01331F77F24100FCD2F3 /* SFBaseViewController.swift */,
+				B84D01501F78059300FCD2F3 /* SFBaseView.swift */,
+				B84D01521F7805AF00FCD2F3 /* SFScrollView.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -616,6 +622,8 @@
 				B84D014B1F7804E900FCD2F3 /* UIButton-SFExtension.swift in Sources */,
 				B84D01321F77F21F00FCD2F3 /* SFTabBarController.swift in Sources */,
 				B84D01301F77F1FD00FCD2F3 /* SFNavigationController.swift in Sources */,
+				B84D01531F7805AF00FCD2F3 /* SFScrollView.swift in Sources */,
+				B84D01511F78059300FCD2F3 /* SFBaseView.swift in Sources */,
 				B84D014D1F78050400FCD2F3 /* UIView-SFExtension.swift in Sources */,
 				B84D01381F77F26D00FCD2F3 /* SFShowViewController.swift in Sources */,
 				B84D01491F78043E00FCD2F3 /* UILabel-SFExtension.swift in Sources */,
