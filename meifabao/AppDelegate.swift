@@ -16,7 +16,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        conigRootViewController(isLogin: true)
+        
         return true
+    }
+    
+    func conigRootViewController(isLogin: Bool) {
+        if isLogin {
+            let tabBarVc = SFTabBarController()
+            window?.rootViewController = tabBarVc
+            window?.makeKeyAndVisible()
+        }
+        else
+        {
+            // 进入登录页面
+        }
     }
 
     func applicationWillResignActive(_ application: UIApplication) {

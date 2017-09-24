@@ -7,13 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F22094EE716F8F2243ED623 /* Pods_meifabaoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58977831466FBCFBFDA74D8B /* Pods_meifabaoUITests.framework */; };
+		681CDA8FC759C5CABA134287 /* Pods_meifabaoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E60794A9BE6A88E4736C456A /* Pods_meifabaoTests.framework */; };
 		B84D00F81F77F04400FCD2F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84D00F71F77F04400FCD2F3 /* AppDelegate.swift */; };
-		B84D00FA1F77F04400FCD2F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84D00F91F77F04400FCD2F3 /* ViewController.swift */; };
 		B84D00FD1F77F04400FCD2F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B84D00FB1F77F04400FCD2F3 /* Main.storyboard */; };
 		B84D00FF1F77F04400FCD2F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B84D00FE1F77F04400FCD2F3 /* Assets.xcassets */; };
 		B84D01021F77F04400FCD2F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B84D01001F77F04400FCD2F3 /* LaunchScreen.storyboard */; };
 		B84D010D1F77F04400FCD2F3 /* meifabaoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84D010C1F77F04400FCD2F3 /* meifabaoTests.swift */; };
 		B84D01181F77F04400FCD2F3 /* meifabaoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84D01171F77F04400FCD2F3 /* meifabaoUITests.swift */; };
+		B84D01301F77F1FD00FCD2F3 /* SFNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84D012F1F77F1FD00FCD2F3 /* SFNavigationController.swift */; };
+		B84D01321F77F21F00FCD2F3 /* SFTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84D01311F77F21F00FCD2F3 /* SFTabBarController.swift */; };
+		B84D01341F77F24100FCD2F3 /* SFBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84D01331F77F24100FCD2F3 /* SFBaseViewController.swift */; };
+		B84D01361F77F25F00FCD2F3 /* SFHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84D01351F77F25F00FCD2F3 /* SFHomeViewController.swift */; };
+		B84D01381F77F26D00FCD2F3 /* SFShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84D01371F77F26D00FCD2F3 /* SFShowViewController.swift */; };
+		B84D013A1F77F27700FCD2F3 /* SFShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84D01391F77F27700FCD2F3 /* SFShopViewController.swift */; };
+		B84D013C1F77F28000FCD2F3 /* SFProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84D013B1F77F28000FCD2F3 /* SFProfileViewController.swift */; };
+		EFD1BC5986A3A656A5279B73 /* Pods_meifabao.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EC29A82865C3C09A6400188 /* Pods_meifabao.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +43,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2DAD092FCC0B1A28A196EBE0 /* Pods-meifabaoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-meifabaoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-meifabaoTests/Pods-meifabaoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3389C120489BAF9BC5149B15 /* Pods-meifabaoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-meifabaoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-meifabaoUITests/Pods-meifabaoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		58977831466FBCFBFDA74D8B /* Pods_meifabaoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_meifabaoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EC29A82865C3C09A6400188 /* Pods_meifabao.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_meifabao.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1097C0F0E10127352CA2FE5 /* Pods-meifabao.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-meifabao.release.xcconfig"; path = "Pods/Target Support Files/Pods-meifabao/Pods-meifabao.release.xcconfig"; sourceTree = "<group>"; };
 		B84D00F41F77F04400FCD2F3 /* meifabao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = meifabao.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B84D00F71F77F04400FCD2F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B84D00F91F77F04400FCD2F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B84D00FC1F77F04400FCD2F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B84D00FE1F77F04400FCD2F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B84D01011F77F04400FCD2F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +60,17 @@
 		B84D01131F77F04400FCD2F3 /* meifabaoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = meifabaoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B84D01171F77F04400FCD2F3 /* meifabaoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meifabaoUITests.swift; sourceTree = "<group>"; };
 		B84D01191F77F04400FCD2F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B84D012F1F77F1FD00FCD2F3 /* SFNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFNavigationController.swift; sourceTree = "<group>"; };
+		B84D01311F77F21F00FCD2F3 /* SFTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFTabBarController.swift; sourceTree = "<group>"; };
+		B84D01331F77F24100FCD2F3 /* SFBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFBaseViewController.swift; sourceTree = "<group>"; };
+		B84D01351F77F25F00FCD2F3 /* SFHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFHomeViewController.swift; sourceTree = "<group>"; };
+		B84D01371F77F26D00FCD2F3 /* SFShowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFShowViewController.swift; sourceTree = "<group>"; };
+		B84D01391F77F27700FCD2F3 /* SFShopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFShopViewController.swift; sourceTree = "<group>"; };
+		B84D013B1F77F28000FCD2F3 /* SFProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFProfileViewController.swift; sourceTree = "<group>"; };
+		C3D970659A48E8337A224232 /* Pods-meifabaoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-meifabaoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-meifabaoUITests/Pods-meifabaoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E60794A9BE6A88E4736C456A /* Pods_meifabaoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_meifabaoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE3D065AA68F7BB3A6F3BAE8 /* Pods-meifabao.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-meifabao.debug.xcconfig"; path = "Pods/Target Support Files/Pods-meifabao/Pods-meifabao.debug.xcconfig"; sourceTree = "<group>"; };
+		FC01011D7C67954229C5352A /* Pods-meifabaoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-meifabaoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-meifabaoTests/Pods-meifabaoTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFD1BC5986A3A656A5279B73 /* Pods_meifabao.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				681CDA8FC759C5CABA134287 /* Pods_meifabaoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +94,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F22094EE716F8F2243ED623 /* Pods_meifabaoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		62DAC4A89C58A338C1E83287 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6EC29A82865C3C09A6400188 /* Pods_meifabao.framework */,
+				E60794A9BE6A88E4736C456A /* Pods_meifabaoTests.framework */,
+				58977831466FBCFBFDA74D8B /* Pods_meifabaoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B84D00EB1F77F04400FCD2F3 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +118,8 @@
 				B84D010B1F77F04400FCD2F3 /* meifabaoTests */,
 				B84D01161F77F04400FCD2F3 /* meifabaoUITests */,
 				B84D00F51F77F04400FCD2F3 /* Products */,
+				DB95ED0C81DBAA8117CAEF2E /* Pods */,
+				62DAC4A89C58A338C1E83287 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,7 +137,7 @@
 			isa = PBXGroup;
 			children = (
 				B84D00F71F77F04400FCD2F3 /* AppDelegate.swift */,
-				B84D00F91F77F04400FCD2F3 /* ViewController.swift */,
+				B84D01251F77F0B600FCD2F3 /* Classes */,
 				B84D00FB1F77F04400FCD2F3 /* Main.storyboard */,
 				B84D00FE1F77F04400FCD2F3 /* Assets.xcassets */,
 				B84D01001F77F04400FCD2F3 /* LaunchScreen.storyboard */,
@@ -125,6 +164,105 @@
 			path = meifabaoUITests;
 			sourceTree = "<group>";
 		};
+		B84D01251F77F0B600FCD2F3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B84D01261F77F0B600FCD2F3 /* Model(模型) */,
+				B84D01271F77F0B600FCD2F3 /* Tools(工具) */,
+				B84D01281F77F0B600FCD2F3 /* View(视图和控制器) */,
+				B84D01291F77F0B600FCD2F3 /* ViewModel(视图模型) */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B84D01261F77F0B600FCD2F3 /* Model(模型) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Model(模型)";
+			sourceTree = "<group>";
+		};
+		B84D01271F77F0B600FCD2F3 /* Tools(工具) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Tools(工具)";
+			sourceTree = "<group>";
+		};
+		B84D01281F77F0B600FCD2F3 /* View(视图和控制器) */ = {
+			isa = PBXGroup;
+			children = (
+				B84D012B1F77F19F00FCD2F3 /* Main */,
+				B84D012D1F77F19F00FCD2F3 /* Home */,
+				B84D012C1F77F19F00FCD2F3 /* Show */,
+				B84D012E1F77F1D600FCD2F3 /* Shop */,
+				B84D012A1F77F19F00FCD2F3 /* Profile */,
+			);
+			path = "View(视图和控制器)";
+			sourceTree = "<group>";
+		};
+		B84D01291F77F0B600FCD2F3 /* ViewModel(视图模型) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "ViewModel(视图模型)";
+			sourceTree = "<group>";
+		};
+		B84D012A1F77F19F00FCD2F3 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				B84D013B1F77F28000FCD2F3 /* SFProfileViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		B84D012B1F77F19F00FCD2F3 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B84D01311F77F21F00FCD2F3 /* SFTabBarController.swift */,
+				B84D012F1F77F1FD00FCD2F3 /* SFNavigationController.swift */,
+				B84D01331F77F24100FCD2F3 /* SFBaseViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		B84D012C1F77F19F00FCD2F3 /* Show */ = {
+			isa = PBXGroup;
+			children = (
+				B84D01371F77F26D00FCD2F3 /* SFShowViewController.swift */,
+			);
+			path = Show;
+			sourceTree = "<group>";
+		};
+		B84D012D1F77F19F00FCD2F3 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B84D01351F77F25F00FCD2F3 /* SFHomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B84D012E1F77F1D600FCD2F3 /* Shop */ = {
+			isa = PBXGroup;
+			children = (
+				B84D01391F77F27700FCD2F3 /* SFShopViewController.swift */,
+			);
+			path = Shop;
+			sourceTree = "<group>";
+		};
+		DB95ED0C81DBAA8117CAEF2E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE3D065AA68F7BB3A6F3BAE8 /* Pods-meifabao.debug.xcconfig */,
+				A1097C0F0E10127352CA2FE5 /* Pods-meifabao.release.xcconfig */,
+				2DAD092FCC0B1A28A196EBE0 /* Pods-meifabaoTests.debug.xcconfig */,
+				FC01011D7C67954229C5352A /* Pods-meifabaoTests.release.xcconfig */,
+				C3D970659A48E8337A224232 /* Pods-meifabaoUITests.debug.xcconfig */,
+				3389C120489BAF9BC5149B15 /* Pods-meifabaoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +270,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B84D011C1F77F04400FCD2F3 /* Build configuration list for PBXNativeTarget "meifabao" */;
 			buildPhases = (
+				2EA04FD613912A5F2978CABC /* [CP] Check Pods Manifest.lock */,
 				B84D00F01F77F04400FCD2F3 /* Sources */,
 				B84D00F11F77F04400FCD2F3 /* Frameworks */,
 				B84D00F21F77F04400FCD2F3 /* Resources */,
+				5BA452BFDD232B8C1DF606A4 /* [CP] Embed Pods Frameworks */,
+				98E767CAC5513BC586D8D16D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +290,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B84D011F1F77F04400FCD2F3 /* Build configuration list for PBXNativeTarget "meifabaoTests" */;
 			buildPhases = (
+				D44917FD056D297908DA3146 /* [CP] Check Pods Manifest.lock */,
 				B84D01041F77F04400FCD2F3 /* Sources */,
 				B84D01051F77F04400FCD2F3 /* Frameworks */,
 				B84D01061F77F04400FCD2F3 /* Resources */,
+				1D7B9A746E3151BABD743352 /* [CP] Embed Pods Frameworks */,
+				1FA5206D72809B0AC78299EE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +311,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B84D01221F77F04400FCD2F3 /* Build configuration list for PBXNativeTarget "meifabaoUITests" */;
 			buildPhases = (
+				119A52E446CC03A22BA5ED11 /* [CP] Check Pods Manifest.lock */,
 				B84D010F1F77F04400FCD2F3 /* Sources */,
 				B84D01101F77F04400FCD2F3 /* Frameworks */,
 				B84D01111F77F04400FCD2F3 /* Resources */,
+				A30313558DF9E7D58CFC546A /* [CP] Embed Pods Frameworks */,
+				ADBEAA9677607EC1CE5AE950 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -187,6 +334,7 @@
 		B84D00EC1F77F04400FCD2F3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = SF;
 				LastSwiftUpdateCheck = 0900;
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "花菜";
@@ -254,12 +402,156 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		119A52E446CC03A22BA5ED11 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1D7B9A746E3151BABD743352 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-meifabaoTests/Pods-meifabaoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1FA5206D72809B0AC78299EE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-meifabaoTests/Pods-meifabaoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2EA04FD613912A5F2978CABC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5BA452BFDD232B8C1DF606A4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-meifabao/Pods-meifabao-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98E767CAC5513BC586D8D16D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-meifabao/Pods-meifabao-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A30313558DF9E7D58CFC546A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-meifabaoUITests/Pods-meifabaoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ADBEAA9677607EC1CE5AE950 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-meifabaoUITests/Pods-meifabaoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D44917FD056D297908DA3146 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B84D00F01F77F04400FCD2F3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B84D00FA1F77F04400FCD2F3 /* ViewController.swift in Sources */,
+				B84D01361F77F25F00FCD2F3 /* SFHomeViewController.swift in Sources */,
+				B84D013C1F77F28000FCD2F3 /* SFProfileViewController.swift in Sources */,
+				B84D01341F77F24100FCD2F3 /* SFBaseViewController.swift in Sources */,
+				B84D013A1F77F27700FCD2F3 /* SFShopViewController.swift in Sources */,
+				B84D01321F77F21F00FCD2F3 /* SFTabBarController.swift in Sources */,
+				B84D01301F77F1FD00FCD2F3 /* SFNavigationController.swift in Sources */,
+				B84D01381F77F26D00FCD2F3 /* SFShowViewController.swift in Sources */,
 				B84D00F81F77F04400FCD2F3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,9 +716,11 @@
 		};
 		B84D011D1F77F04400FCD2F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE3D065AA68F7BB3A6F3BAE8 /* Pods-meifabao.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M38597SFNF;
 				INFOPLIST_FILE = meifabao/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.caiflower.meifabao;
@@ -438,9 +732,11 @@
 		};
 		B84D011E1F77F04400FCD2F3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1097C0F0E10127352CA2FE5 /* Pods-meifabao.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M38597SFNF;
 				INFOPLIST_FILE = meifabao/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.caiflower.meifabao;
@@ -452,6 +748,7 @@
 		};
 		B84D01201F77F04400FCD2F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DAD092FCC0B1A28A196EBE0 /* Pods-meifabaoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -468,6 +765,7 @@
 		};
 		B84D01211F77F04400FCD2F3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC01011D7C67954229C5352A /* Pods-meifabaoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +782,7 @@
 		};
 		B84D01231F77F04400FCD2F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3D970659A48E8337A224232 /* Pods-meifabaoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -499,6 +798,7 @@
 		};
 		B84D01241F77F04400FCD2F3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3389C120489BAF9BC5149B15 /* Pods-meifabaoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
