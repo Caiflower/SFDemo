@@ -32,7 +32,7 @@ class SFTabBarController: UITabBarController {
             vc.tabBarItem.title = title
             vc.tabBarItem.image = UIImage(named: "icon_bar_" + imageName + "_n")
             vc.tabBarItem.selectedImage = UIImage(named: "icon_bar_" + imageName + "_h")
-            vc.tabBarItem.setTitleTextAttributes([NSAttributedStringKey.foregroundColor: UIColor.red], for: .selected)
+            vc.tabBarItem.setTitleTextAttributes([NSAttributedStringKey.foregroundColor: UIColor.coler(hex: 0xfa6556)], for: .selected)
             return SFNavigationController(rootViewController: vc)
         }
     }

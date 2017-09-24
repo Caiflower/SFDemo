@@ -14,6 +14,7 @@ class SFBaseViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+         view.backgroundColor = UIColor.randomColor()
     }
 
     override func didReceiveMemoryWarning() {

@@ -22,6 +22,13 @@
 		B84D01381F77F26D00FCD2F3 /* SFShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84D01371F77F26D00FCD2F3 /* SFShowViewController.swift */; };
 		B84D013A1F77F27700FCD2F3 /* SFShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84D01391F77F27700FCD2F3 /* SFShopViewController.swift */; };
 		B84D013C1F77F28000FCD2F3 /* SFProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84D013B1F77F28000FCD2F3 /* SFProfileViewController.swift */; };
+		B84D01431F78005A00FCD2F3 /* String-SFExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84D01421F78005A00FCD2F3 /* String-SFExtension.swift */; };
+		B84D01451F78023D00FCD2F3 /* UIColor-SFExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84D01441F78023D00FCD2F3 /* UIColor-SFExtension.swift */; };
+		B84D01471F7803E100FCD2F3 /* Bundle-SFExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84D01461F7803E100FCD2F3 /* Bundle-SFExtension.swift */; };
+		B84D01491F78043E00FCD2F3 /* UILabel-SFExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84D01481F78043E00FCD2F3 /* UILabel-SFExtension.swift */; };
+		B84D014B1F7804E900FCD2F3 /* UIButton-SFExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84D014A1F7804E900FCD2F3 /* UIButton-SFExtension.swift */; };
+		B84D014D1F78050400FCD2F3 /* UIView-SFExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84D014C1F78050400FCD2F3 /* UIView-SFExtension.swift */; };
+		B84D014F1F78055000FCD2F3 /* UIImage-SFExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84D014E1F78055000FCD2F3 /* UIImage-SFExtension.swift */; };
 		EFD1BC5986A3A656A5279B73 /* Pods_meifabao.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EC29A82865C3C09A6400188 /* Pods_meifabao.framework */; };
 /* End PBXBuildFile section */
 
@@ -67,6 +74,13 @@
 		B84D01371F77F26D00FCD2F3 /* SFShowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFShowViewController.swift; sourceTree = "<group>"; };
 		B84D01391F77F27700FCD2F3 /* SFShopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFShopViewController.swift; sourceTree = "<group>"; };
 		B84D013B1F77F28000FCD2F3 /* SFProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFProfileViewController.swift; sourceTree = "<group>"; };
+		B84D01421F78005A00FCD2F3 /* String-SFExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String-SFExtension.swift"; sourceTree = "<group>"; };
+		B84D01441F78023D00FCD2F3 /* UIColor-SFExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor-SFExtension.swift"; sourceTree = "<group>"; };
+		B84D01461F7803E100FCD2F3 /* Bundle-SFExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-SFExtension.swift"; sourceTree = "<group>"; };
+		B84D01481F78043E00FCD2F3 /* UILabel-SFExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel-SFExtension.swift"; sourceTree = "<group>"; };
+		B84D014A1F7804E900FCD2F3 /* UIButton-SFExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton-SFExtension.swift"; sourceTree = "<group>"; };
+		B84D014C1F78050400FCD2F3 /* UIView-SFExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView-SFExtension.swift"; sourceTree = "<group>"; };
+		B84D014E1F78055000FCD2F3 /* UIImage-SFExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage-SFExtension.swift"; sourceTree = "<group>"; };
 		C3D970659A48E8337A224232 /* Pods-meifabaoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-meifabaoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-meifabaoUITests/Pods-meifabaoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		E60794A9BE6A88E4736C456A /* Pods_meifabaoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_meifabaoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE3D065AA68F7BB3A6F3BAE8 /* Pods-meifabao.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-meifabao.debug.xcconfig"; path = "Pods/Target Support Files/Pods-meifabao/Pods-meifabao.debug.xcconfig"; sourceTree = "<group>"; };
@@ -185,6 +199,9 @@
 		B84D01271F77F0B600FCD2F3 /* Tools(工具) */ = {
 			isa = PBXGroup;
 			children = (
+				B84D01411F77FF9300FCD2F3 /* Base */,
+				B84D013D1F77FF9300FCD2F3 /* Categories */,
+				B84D01401F77FF9300FCD2F3 /* Helpers */,
 			);
 			path = "Tools(工具)";
 			sourceTree = "<group>";
@@ -221,7 +238,6 @@
 			children = (
 				B84D01311F77F21F00FCD2F3 /* SFTabBarController.swift */,
 				B84D012F1F77F1FD00FCD2F3 /* SFNavigationController.swift */,
-				B84D01331F77F24100FCD2F3 /* SFBaseViewController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -248,6 +264,51 @@
 				B84D01391F77F27700FCD2F3 /* SFShopViewController.swift */,
 			);
 			path = Shop;
+			sourceTree = "<group>";
+		};
+		B84D013D1F77FF9300FCD2F3 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				B84D013E1F77FF9300FCD2F3 /* Foundation */,
+				B84D013F1F77FF9300FCD2F3 /* UIKit */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		B84D013E1F77FF9300FCD2F3 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				B84D01421F78005A00FCD2F3 /* String-SFExtension.swift */,
+				B84D01461F7803E100FCD2F3 /* Bundle-SFExtension.swift */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		B84D013F1F77FF9300FCD2F3 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				B84D01441F78023D00FCD2F3 /* UIColor-SFExtension.swift */,
+				B84D01481F78043E00FCD2F3 /* UILabel-SFExtension.swift */,
+				B84D014A1F7804E900FCD2F3 /* UIButton-SFExtension.swift */,
+				B84D014C1F78050400FCD2F3 /* UIView-SFExtension.swift */,
+				B84D014E1F78055000FCD2F3 /* UIImage-SFExtension.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		B84D01401F77FF9300FCD2F3 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		B84D01411F77FF9300FCD2F3 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				B84D01331F77F24100FCD2F3 /* SFBaseViewController.swift */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 		DB95ED0C81DBAA8117CAEF2E /* Pods */ = {
@@ -545,14 +606,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B84D01471F7803E100FCD2F3 /* Bundle-SFExtension.swift in Sources */,
 				B84D01361F77F25F00FCD2F3 /* SFHomeViewController.swift in Sources */,
+				B84D014F1F78055000FCD2F3 /* UIImage-SFExtension.swift in Sources */,
 				B84D013C1F77F28000FCD2F3 /* SFProfileViewController.swift in Sources */,
+				B84D01451F78023D00FCD2F3 /* UIColor-SFExtension.swift in Sources */,
 				B84D01341F77F24100FCD2F3 /* SFBaseViewController.swift in Sources */,
 				B84D013A1F77F27700FCD2F3 /* SFShopViewController.swift in Sources */,
+				B84D014B1F7804E900FCD2F3 /* UIButton-SFExtension.swift in Sources */,
 				B84D01321F77F21F00FCD2F3 /* SFTabBarController.swift in Sources */,
 				B84D01301F77F1FD00FCD2F3 /* SFNavigationController.swift in Sources */,
+				B84D014D1F78050400FCD2F3 /* UIView-SFExtension.swift in Sources */,
 				B84D01381F77F26D00FCD2F3 /* SFShowViewController.swift in Sources */,
+				B84D01491F78043E00FCD2F3 /* UILabel-SFExtension.swift in Sources */,
 				B84D00F81F77F04400FCD2F3 /* AppDelegate.swift in Sources */,
+				B84D01431F78005A00FCD2F3 /* String-SFExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
